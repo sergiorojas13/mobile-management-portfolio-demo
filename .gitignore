@@ -1,0 +1,44 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Build / packaging
+build/
+dist/
+
+# Logs / exports / temp
+logs/
+exports/
+*.log
+*.tmp
+*.bak
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.sqlite
+*.db
+
+# Local backups
+*_backup*/
+backup*/
